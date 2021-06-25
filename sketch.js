@@ -50,7 +50,8 @@ class Bubble {
     this.y = this.y + random(-4, 4);
   }
   show() {
-    noStroke();
+    strokeWeight(2);
+    stroke(0);
     fill(this.rc, this.gc, this.bc);
     ellipse(this.x, this.y, this.r);
   }
