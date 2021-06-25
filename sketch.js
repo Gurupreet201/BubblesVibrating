@@ -41,13 +41,13 @@ class Bubble {
     this.x = x;
     this.y = y;
     this.r = r;
-    this.rc = 217;
-    this.gc = 131;
-    this.bc = 150;
+    this.rc = 60;
+    this.gc = 179;
+    this.bc = 113;
   }
   move() {
-    this.x = this.x + random(-5, 5);
-    this.y = this.y + random(-5, 5);
+    this.x = this.x + random(-4, 4);
+    this.y = this.y + random(-4, 4);
   }
   show() {
     noStroke();
